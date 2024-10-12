@@ -27,7 +27,8 @@ LIBS += -L$(VIVANTE_SDK_LIB) -lOpenVX -lOpenVXU -lGAL -lovxlib -lArchModelSw -lN
 LIBS += -L../source_code/bin_r -lnn_detect
 
 #LIBS +=-L$(LIB_DIR) -lstdc++
-LIBS += -lvpcodec -lamcodec -lamadec -lamvdec -lamavutils -lrt -lpthread -lge2d -lion
+#LIBS += -lvpcodec -lamcodec -lamadec -lamvdec -lamavutils -lrt -lpthread -lge2d -lion
+LIBS += -lvpcodec -lrt -lpthread
 
 #############################################################################
 # Macros.
